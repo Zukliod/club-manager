@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background: #f1f5f9;
+}
+
+.container {
+  display: flex;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 220px;
+  background: #1e293b;
+  color: white;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.sidebar h2 {
+  margin-bottom: 20px;
+}
+
+.sidebar ul {
+  list-style: none;
+}
+
+.sidebar li {
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.sidebar li:hover {
+  background: #334155;
+}
+
+/* Main */
+.main {
+  flex: 1;
+  padding: 20px;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+/* Profile Card */
+.profile-card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+/* Section */
+.section {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+/* Event Cards */
+.events {
+  display: flex;
+  gap: 15px;
+}
+
+.event-card {
+  background: #e2e8f0;
+  padding: 15px;
+  border-radius: 10px;
+  width: 200px;
+}
+
+.event-card button {
+  margin-top: 10px;
+  padding: 6px 10px;
+  background: #3b82f6;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Clubs */
+.clubs span {
+  display: inline-block;
+  background: #c7d2fe;
+  padding: 8px 12px;
+  border-radius: 20px;
+  margin-right: 10px;
+}
+
+/* Notifications */
+.notifications {
+  list-style: none;
+}
+
+.notifications li {
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
